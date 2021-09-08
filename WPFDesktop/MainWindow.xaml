@@ -1,0 +1,45 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFDesktop"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="WPFDesktop.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="328" Width="412">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <LinearGradientBrush>
+                <LinearGradientBrush.GradientStops>
+                    <GradientStop Offset="0.00" Color="Red"/>
+                    <GradientStop Offset="0.30" Color="Yellow"/>
+                    <GradientStop Offset="0.50" Color="Indigo"/>
+                    <GradientStop Offset="1.00" Color="Violet"/>
+                </LinearGradientBrush.GradientStops>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="10,10,13,10" Name="tbxQuestion"
+                 TextWrapping="Wrap" FontFamily="Verdana" FontSize="24" Background="#fff"
+                 Grid.Row="0">
+            [Pleace question here]
+        </TextBox>
+        <Button VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,0,0,20" Width="169" Height="35"
+                Name="btnAnswer" Grid.Row="1" Background="#ccc" Foreground="#000" Click="btnAnswer_Click">
+            Ask the Eight Ball
+        </Button>
+        <Button VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,0,12.6,0" Width="169" Height="35"
+                Name="btnOpenPage" Grid.Row="1" Background="#ccc" Foreground="#000" Click="btnOpenPage_Click">
+            Open New Windows
+        </Button>
+        <TextBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="10,10,13,10" Name="tbxAnswer" 
+             TextWrapping="Wrap" IsReadOnly="True" FontFamily="Verdana" FontSize="24" Foreground="Green"
+             Grid.Row="2" Background="#fff">
+            [Answer will appear here.]
+        </TextBox>
+    </Grid>
+</Window>

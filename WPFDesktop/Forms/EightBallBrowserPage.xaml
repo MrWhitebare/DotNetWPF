@@ -1,0 +1,44 @@
+﻿<Window x:Class="WPFDesktop.Forms.EightBallBrowserPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFDesktop.Forms"
+        mc:Ignorable="d"
+        Title="EightBallBrowserPage" Height="450" Width="800" ShowInTaskbar="False">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="705*"/>
+            <ColumnDefinition Width="88*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <LinearGradientBrush>
+                <LinearGradientBrush.GradientStops>
+                    <GradientStop Offset="0.00"  Color="Red" />
+                    <GradientStop Offset="0.50" Color="Indigo" />
+                    <GradientStop Offset="1.00" Color="Violet" />
+                </LinearGradientBrush.GradientStops>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="10,10,12.6,10" Name="txtQuestion" 
+             TextWrapping="Wrap" FontFamily="Verdana" FontSize="24" Background="#fff" Foreground="Aqua"
+             Grid.Row="0" Grid.ColumnSpan="2">
+            [Place question here.]s
+        </TextBox>
+        <Button VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,0,0,0" Width="200" Height="40" Name="cmdAnswer"
+            FontSize="26" Background="Beige" Foreground="#000" BorderBrush="AliceBlue"
+            Grid.Row="1" Click="tbxAnswer_Click">
+            Ask the Eight Ball
+        </Button>
+        <TextBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="10,10,12.6,10" Name="txtAnswer" 
+             TextWrapping="Wrap" IsReadOnly="True" FontFamily="Verdana" FontSize="24" Foreground="Green" Background="#fff"
+             Grid.Row="2" Grid.ColumnSpan="2">
+            [Answer will appear here.]
+        </TextBox>
+    </Grid>
+</Window>
