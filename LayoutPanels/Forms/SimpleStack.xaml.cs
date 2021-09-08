@@ -10,19 +10,28 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace LayoutPanels
+namespace LayoutPanels.Forms
 {
     /// <summary>
-    /// MainWindow.xaml 的交互逻辑
+    /// SimpleStack.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class SimpleStack : Window
     {
-        public MainWindow()
+        public SimpleStack()
         {
             InitializeComponent();
+        }
+
+        private void chkVertical_Checked(object sender, RoutedEventArgs e)
+        {
+            stackPannel.Orientation = Orientation.Horizontal;
+        }
+
+        private void chkVertical_Unchecked(object sender, RoutedEventArgs e)
+        {
+            stackPannel.Orientation = Orientation.Vertical;
         }
     }
 }
