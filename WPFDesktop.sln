@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonCompiledXaml", "NonCompi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter02", "Chapter02", "{C27715F0-4CAE-46E6-B3B9-500827E99E25}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter03", "Chapter03", "{65A007DE-C446-47D1-B303-4016B25DFC99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayoutPanels", "LayoutPanels\LayoutPanels.csproj", "{9D7E4941-91E5-4F25-8C06-403A03ED479E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,10 @@ Global
 		{DB7A4D9A-6A49-4F73-BBFA-E44A64F10D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB7A4D9A-6A49-4F73-BBFA-E44A64F10D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB7A4D9A-6A49-4F73-BBFA-E44A64F10D40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D7E4941-91E5-4F25-8C06-403A03ED479E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D7E4941-91E5-4F25-8C06-403A03ED479E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D7E4941-91E5-4F25-8C06-403A03ED479E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D7E4941-91E5-4F25-8C06-403A03ED479E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{0A2EBF32-A652-4ABE-ABC2-84A36BE7036A} = {C27715F0-4CAE-46E6-B3B9-500827E99E25}
 		{DB7A4D9A-6A49-4F73-BBFA-E44A64F10D40} = {C27715F0-4CAE-46E6-B3B9-500827E99E25}
+		{9D7E4941-91E5-4F25-8C06-403A03ED479E} = {65A007DE-C446-47D1-B303-4016B25DFC99}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {597EBEE1-7D9D-41D1-B8E9-7AA4E67F6412}
