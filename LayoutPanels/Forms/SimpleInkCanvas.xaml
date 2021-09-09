@@ -1,0 +1,21 @@
+﻿<Window x:Class="LayoutPanels.Forms.SimpleInkCanvas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LayoutPanels.Forms"
+        mc:Ignorable="d"
+        Title="SimpleInkCanvas" Height="300" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Margin="5" Orientation="Horizontal">
+            <TextBlock Margin="5">EditingMode:</TextBlock>
+            <ComboBox Name="cbxEditingMode" VerticalAlignment="Center" Text="请选中绘制模式"/>
+        </StackPanel>
+
+        <InkCanvas Name="inkCanvas" Grid.Row="1" Background="LightYellow" EditingMode="{Binding ElementName=cbxEditingMode,Path=SelectedItem}"/>
+    </Grid>
+</Window>

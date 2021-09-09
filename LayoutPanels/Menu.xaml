@@ -16,6 +16,7 @@
             <Button>LayoutRoundingTest</Button>
             <Button>SplitWindow</Button>
             <Button>DoubleSplitWindow</Button>
+            <Button>FourSplitWindow</Button>
             <Button>SharedSizeGroup</Button>
             <Button>SimpleCanvas</Button>
             <Button>SimpleInkCanvas</Button>

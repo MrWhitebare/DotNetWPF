@@ -64,14 +64,35 @@
     <Compile Include="Forms\BasicDialogBox.xaml.cs">
       <DependentUpon>BasicDialogBox.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Forms\DoubleSplitWindow.xaml.cs">
+      <DependentUpon>DoubleSplitWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FourSplitWindow.xaml.cs">
+      <DependentUpon>FourSplitWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Forms\LayoutRoundingTest.xaml.cs">
       <DependentUpon>LayoutRoundingTest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LocalizableText.xaml.cs">
+      <DependentUpon>LocalizableText.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ModularContent.xaml.cs">
+      <DependentUpon>ModularContent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SharedSizeGroup.xaml.cs">
+      <DependentUpon>SharedSizeGroup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SimpleCanvas.xaml.cs">
+      <DependentUpon>SimpleCanvas.xaml</DependentUpon>
     </Compile>
     <Compile Include="Forms\SimpleDock.xaml.cs">
       <DependentUpon>SimpleDock.xaml</DependentUpon>
     </Compile>
     <Compile Include="Forms\SimpleGrid.xaml.cs">
       <DependentUpon>SimpleGrid.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SimpleInkCanvas.xaml.cs">
+      <DependentUpon>SimpleInkCanvas.xaml</DependentUpon>
     </Compile>
     <Compile Include="Forms\SimpleStack.xaml.cs">
       <DependentUpon>SimpleStack.xaml</DependentUpon>
@@ -81,6 +102,12 @@
     </Compile>
     <Compile Include="Forms\SplitWindow.xaml.cs">
       <DependentUpon>SplitWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TextBoxColumn.xaml.cs">
+      <DependentUpon>TextBoxColumn.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TheUniformGrid.xaml.cs">
+      <DependentUpon>TheUniformGrid.xaml</DependentUpon>
     </Compile>
     <Compile Include="Menu.xaml.cs">
       <DependentUpon>Menu.xaml</DependentUpon>
@@ -115,7 +142,31 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Forms\DoubleSplitWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\FourSplitWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Forms\LayoutRoundingTest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\LocalizableText.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\ModularContent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\SharedSizeGroup.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\SimpleCanvas.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -124,6 +175,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Forms\SimpleGrid.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\SimpleInkCanvas.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -136,6 +191,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Forms\SplitWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\TextBoxColumn.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\TheUniformGrid.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

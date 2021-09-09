@@ -1,0 +1,38 @@
+﻿<Window x:Class="LayoutPanels.Forms.TextBoxColumn"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LayoutPanels.Forms"
+        mc:Ignorable="d"
+        Title="TextBoxColumn" Height="300" Width="300" MinWidth="250">
+    <Grid Margin="3,3,10,3">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*" MinWidth="50" MaxWidth="800"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" Margin="3" VerticalAlignment="Center" Content="Home:"/>
+        <TextBox Grid.Row="0" Grid.Column="1" Margin="3" Height="Auto" VerticalAlignment="Center"/>
+        <Button Grid.Row="0" Grid.Column="2" Margin="3" Padding="2" Content="Browsw"/>
+
+        <Label Grid.Row="1" Grid.Column="0" Margin="3" VerticalAlignment="Center" Content="Secondary:"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Margin="3" Height="Auto" VerticalAlignment="Center"/>
+        <Button Grid.Row="1" Grid.Column="2" Margin="3" Padding="2" Content="Browsw"/>
+
+        <Label Grid.Row="2" Grid.Column="0" Margin="3" VerticalAlignment="Center" Content="NetWork:"/>
+        <TextBox Grid.Row="2" Grid.Column="1" Margin="3" Height="Auto" VerticalAlignment="Center"/>
+        <Button Grid.Row="2" Grid.Column="2" Margin="3" Padding="2" Content="Browsw"/>
+
+        <Label Grid.Row="3" Grid.Column="0" Margin="3" VerticalAlignment="Center" Content="Web:"/>
+        <TextBox Grid.Row="3" Grid.Column="1" Margin="3" Height="Auto" VerticalAlignment="Center"/>
+        <Button Grid.Row="3" Grid.Column="2" Margin="3" Padding="2" Content="Browsw"/>
+    </Grid>
+</Window>

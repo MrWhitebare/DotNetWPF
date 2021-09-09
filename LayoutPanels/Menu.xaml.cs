@@ -32,7 +32,14 @@ namespace LayoutPanels
             Type type = this.GetType();
             Assembly assembly = type.Assembly;
             Window window = (Window)assembly.CreateInstance(string.Format("{0}.Forms.{1}",type.Namespace,cmd.Content));
-            window.ShowDialog();
+            try
+            {
+                window.ShowDialog();
+            }catch(InvalidOperationException exception)
+            {
+                string strTitle = string.Format("发生异常：{0}；请联系Developer: MrWhitebare",exception.Message);
+                MessageBox.Show(strTitle,"异常",MessageBoxButton.OK,MessageBoxImage.Error);
+            }
         }
     }
 }
