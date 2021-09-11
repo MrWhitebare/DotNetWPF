@@ -13,6 +13,141 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter03", "Chapter03", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayoutPanels", "LayoutPanels\LayoutPanels.csproj", "{9D7E4941-91E5-4F25-8C06-403A03ED479E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter05", "Chapter05", "{8865735C-A071-426D-B0E0-BA88A264046C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter06", "Chapter06", "{9DD5EDCC-F5CD-4CF8-BD91-0402980CE0FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter07", "Chapter07", "{99B00B01-1E68-4BE0-A14D-7F7989BFD63B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CR_Desktop", "CR_Desktop", "{6D88A716-1F9A-4E82-B086-3869C2C5EC7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EVGIS", "EVGIS\EVGIS.csproj", "{E4177038-5C78-4BEC-AA6A-19A3063AF06E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utility", "Utility", "{9C413670-66C2-48A8-8E02-7B405FBB28BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resource", "Resource", "{04F3C6F5-6B25-4EBA-A66B-6A0D2667F98A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Widget", "Widget", "{FA82EDE4-818E-4953-8B8B-5A662B48F48F}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\bottomwidget_0.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\bottomwidget_0.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\bottomwidget_1.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\bottomwidget_1.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\bottomwidget_2.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\bottomwidget_2.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\bottomwidget_3.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\bottomwidget_3.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\bottomwidget_4.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\bottomwidget_4.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\btn_bg_0.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\btn_bg_0.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\btn_bg_1.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\btn_bg_1.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\btn_bg_2.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\btn_bg_2.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\dialog_bg_common.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\dialog_bg_common.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\exit_Hover.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\exit_Hover.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\exit_Normal.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\exit_Normal.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\exit_Pressed.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\exit_Pressed.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\menuwidget_bg.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\menuwidget_bg.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\msgAsterisk.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\msgAsterisk.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\msgError.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\msgError.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\msgExclamation.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\msgExclamation.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\msgHand.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\msgHand.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\msgInformation.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\msgInformation.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\msgQuestion.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\msgQuestion.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\msgStop.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\msgStop.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\msgWarning.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\msgWarning.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\posmessage_bg.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\posmessage_bg.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\slider_icon_left.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\slider_icon_left.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\top_vert_spliter.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\top_vert_spliter.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\topwidget_0.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\topwidget_0.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\topwidget_1.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\topwidget_1.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\topwidget_2.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\topwidget_2.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\topwidget_3.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\topwidget_3.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\topwidget_4.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\topwidget_4.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\window_bg_top.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\window_bg_top.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\未标题-3.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Widget\未标题-3.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Icons", "Icons", "{8F56C3BB-49FE-464E-AAC5-BC3CDDE17150}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\default_Hover.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\default_Hover.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\default_Normal.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\default_Normal.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\default_Pressed.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\default_Pressed.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\logo - 副本.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\logo - 副本.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\logo--.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\logo--.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\logo-.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\logo-.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\logo.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\logo.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\logo0.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\logo0.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\logo1.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\logo1.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\logo2.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\logo2.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\SplashScreen.jpg = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\SplashScreen.jpg
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\SplashScreen.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\SplashScreen.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\widget_title.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\widget_title.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\二三维切换.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\二三维切换.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\二三维联动.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\二三维联动.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\停止航行.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\停止航行.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\关于_Hover.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\关于_Hover.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\关于_Normal.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\关于_Normal.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\关于_Pressed.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\关于_Pressed.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\分割线.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\分割线.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\切换方向.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\切换方向.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\半球.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\半球.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\同步.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\同步.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\图像覆盖层.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\图像覆盖层.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\图层管理.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\图层管理.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\土方分析.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\土方分析.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\地形断面分析.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\地形断面分析.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\地标.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\地标.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\地表透明.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\地表透明.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\坐标定位.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\坐标定位.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\坡度坡向分析.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\坡度坡向分析.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\定位点量测.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\定位点量测.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\属性编辑_dl.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\属性编辑_dl.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\属性编辑_fw.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\属性编辑_fw.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\属性编辑_model.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\属性编辑_model.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\属性编辑_zdj.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\属性编辑_zdj.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\帮助_Hover.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\帮助_Hover.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\帮助_Normal.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\帮助_Normal.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\帮助_Pressed.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\帮助_Pressed.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\开始航行.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\开始航行.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\征拆统计_fw.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\征拆统计_fw.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\快速定位.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\快速定位.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\快速查询_dl.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\快速查询_dl.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\快速查询_fw.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\快速查询_fw.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\快速查询_model.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\快速查询_model.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\快速查询_zdj.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\快速查询_zdj.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\方位角量测.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\方位角量测.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\暂停航行.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\暂停航行.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\未命名.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\未命名.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\条件查询.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\条件查询.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\标注管理.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\标注管理.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\标绘.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\标绘.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\椎体.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\椎体.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\模型.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\模型.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\模型测量.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\模型测量.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\淹没分析.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\淹没分析.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\清除结果.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\清除结果.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\点选查询_dl.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\点选查询_dl.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\点选查询_fw.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\点选查询_fw.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\点选查询_model.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\点选查询_model.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\点选查询_zdj.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\点选查询_zdj.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\用户管理.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\用户管理.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\立方体.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\立方体.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\线.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\线.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\网络链接.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\网络链接.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\设置_Hover.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\设置_Hover.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\设置_Normal.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\设置_Normal.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\设置_Pressed.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\设置_Pressed.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\距离量测.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\距离量测.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\通视分析.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\通视分析.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\里程定位.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\里程定位.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\里程轴_dl.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\里程轴_dl.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\里程轴_fw.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\里程轴_fw.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\里程轴_model.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\里程轴_model.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\里程轴_zdj.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\里程轴_zdj.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\面.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\面.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\面积量测.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\面积量测.png
+		..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\高差量测.png = ..\..\..\RIS\trunk\Desktop\Debug_x64\CRConfig\Resources\Icons\高差量测.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityWPFUI", "UtilityWPFUI\UtilityWPFUI.csproj", "{E9137095-A0DE-4F43-9295-07C911224673}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutedEvents", "RoutedEvents\RoutedEvents.csproj", "{4CB0FF30-6416-469A-A322-0A56FF85803B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +166,18 @@ Global
 		{9D7E4941-91E5-4F25-8C06-403A03ED479E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D7E4941-91E5-4F25-8C06-403A03ED479E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D7E4941-91E5-4F25-8C06-403A03ED479E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4177038-5C78-4BEC-AA6A-19A3063AF06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4177038-5C78-4BEC-AA6A-19A3063AF06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4177038-5C78-4BEC-AA6A-19A3063AF06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4177038-5C78-4BEC-AA6A-19A3063AF06E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9137095-A0DE-4F43-9295-07C911224673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9137095-A0DE-4F43-9295-07C911224673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9137095-A0DE-4F43-9295-07C911224673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9137095-A0DE-4F43-9295-07C911224673}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CB0FF30-6416-469A-A322-0A56FF85803B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB0FF30-6416-469A-A322-0A56FF85803B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB0FF30-6416-469A-A322-0A56FF85803B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB0FF30-6416-469A-A322-0A56FF85803B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +186,13 @@ Global
 		{0A2EBF32-A652-4ABE-ABC2-84A36BE7036A} = {C27715F0-4CAE-46E6-B3B9-500827E99E25}
 		{DB7A4D9A-6A49-4F73-BBFA-E44A64F10D40} = {C27715F0-4CAE-46E6-B3B9-500827E99E25}
 		{9D7E4941-91E5-4F25-8C06-403A03ED479E} = {65A007DE-C446-47D1-B303-4016B25DFC99}
+		{E4177038-5C78-4BEC-AA6A-19A3063AF06E} = {6D88A716-1F9A-4E82-B086-3869C2C5EC7A}
+		{9C413670-66C2-48A8-8E02-7B405FBB28BC} = {6D88A716-1F9A-4E82-B086-3869C2C5EC7A}
+		{04F3C6F5-6B25-4EBA-A66B-6A0D2667F98A} = {6D88A716-1F9A-4E82-B086-3869C2C5EC7A}
+		{FA82EDE4-818E-4953-8B8B-5A662B48F48F} = {04F3C6F5-6B25-4EBA-A66B-6A0D2667F98A}
+		{8F56C3BB-49FE-464E-AAC5-BC3CDDE17150} = {04F3C6F5-6B25-4EBA-A66B-6A0D2667F98A}
+		{E9137095-A0DE-4F43-9295-07C911224673} = {9C413670-66C2-48A8-8E02-7B405FBB28BC}
+		{4CB0FF30-6416-469A-A322-0A56FF85803B} = {8865735C-A071-426D-B0E0-BA88A264046C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {597EBEE1-7D9D-41D1-B8E9-7AA4E67F6412}
