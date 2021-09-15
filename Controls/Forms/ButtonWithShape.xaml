@@ -1,0 +1,18 @@
+﻿<Window
+    x:Class="Controls.Forms.ButtonWithShape"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Controls.Forms"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="ButtonWithShape"
+    Width="258.8"
+    Height="150"
+    mc:Ignorable="d">
+    <Button Margin="10">
+        <Grid>
+            <Polygon Fill="LightSteelBlue" Points="100,25 125,0 200,25 125,50" />
+            <Polygon Fill="#fff" Points="100,25 75,0 0,25 75,50" />
+        </Grid>
+    </Button>
+</Window>

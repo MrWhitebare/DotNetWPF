@@ -26,4 +26,6 @@
             </Setter>
         </Style>
     </Window.Style>
+
+    <local:CommonBorder x:Name="mainBorder" TitleHeight="35" />
 </Window>

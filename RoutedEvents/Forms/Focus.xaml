@@ -1,0 +1,26 @@
+﻿<Window
+    x:Class="RoutedEvents.Forms.Focus"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:RoutedEvents.Forms"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Focus"
+    Width="294"
+    Height="249"
+    mc:Ignorable="d">
+    <StackPanel Margin="5">
+        <Button
+            Name="tbxFocus"
+            Margin="5"
+            Padding="30">
+            Focused
+        </Button>
+        <Button
+            Name="tbxNotFocused"
+            Margin="5"
+            Padding="30">
+            Not Focused
+        </Button>
+    </StackPanel>
+</Window>

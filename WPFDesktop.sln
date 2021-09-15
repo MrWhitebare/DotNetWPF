@@ -148,6 +148,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityWPFUI", "UtilityWPFU
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutedEvents", "RoutedEvents\RoutedEvents.csproj", "{4CB0FF30-6416-469A-A322-0A56FF85803B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controls", "Controls\Controls.csproj", "{C34D17FC-27B1-453A-98C2-73147C16601F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -178,6 +180,10 @@ Global
 		{4CB0FF30-6416-469A-A322-0A56FF85803B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CB0FF30-6416-469A-A322-0A56FF85803B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CB0FF30-6416-469A-A322-0A56FF85803B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C34D17FC-27B1-453A-98C2-73147C16601F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C34D17FC-27B1-453A-98C2-73147C16601F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C34D17FC-27B1-453A-98C2-73147C16601F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C34D17FC-27B1-453A-98C2-73147C16601F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -193,6 +199,7 @@ Global
 		{8F56C3BB-49FE-464E-AAC5-BC3CDDE17150} = {04F3C6F5-6B25-4EBA-A66B-6A0D2667F98A}
 		{E9137095-A0DE-4F43-9295-07C911224673} = {9C413670-66C2-48A8-8E02-7B405FBB28BC}
 		{4CB0FF30-6416-469A-A322-0A56FF85803B} = {8865735C-A071-426D-B0E0-BA88A264046C}
+		{C34D17FC-27B1-453A-98C2-73147C16601F} = {9DD5EDCC-F5CD-4CF8-BD91-0402980CE0FB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {597EBEE1-7D9D-41D1-B8E9-7AA4E67F6412}

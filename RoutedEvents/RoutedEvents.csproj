@@ -59,6 +59,34 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Forms\ButtonMouseUpEvent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\DragAndDrop.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\Focus.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\KeyModifiers.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\KeyPressEvents.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\MousePosition.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\OnlyNumbers.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Forms\TunneledKeyPress.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -73,6 +101,27 @@
     </Compile>
     <Compile Include="Forms\BubbledLabelClick.xaml.cs">
       <DependentUpon>BubbledLabelClick.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ButtonMouseUpEvent.xaml.cs">
+      <DependentUpon>ButtonMouseUpEvent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DragAndDrop.xaml.cs">
+      <DependentUpon>DragAndDrop.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Focus.xaml.cs">
+      <DependentUpon>Focus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KeyModifiers.xaml.cs">
+      <DependentUpon>KeyModifiers.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KeyPressEvents.xaml.cs">
+      <DependentUpon>KeyPressEvents.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MousePosition.xaml.cs">
+      <DependentUpon>MousePosition.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OnlyNumbers.xaml.cs">
+      <DependentUpon>OnlyNumbers.xaml</DependentUpon>
     </Compile>
     <Compile Include="Forms\TunneledKeyPress.xaml.cs">
       <DependentUpon>TunneledKeyPress.xaml</DependentUpon>

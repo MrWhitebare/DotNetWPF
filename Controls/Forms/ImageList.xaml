@@ -1,0 +1,39 @@
+﻿<Window
+    x:Class="Controls.Forms.ImageList"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Controls.Forms"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="ImageList"
+    Width="300"
+    Height="300"
+    mc:Ignorable="d">
+    <ListBox
+        Name="lstPicWrapper"
+        Margin="5"
+        SelectionChanged="lstPicWrapper_SelectionChanged"
+        SelectionMode="Multiple">
+        <StackPanel Orientation="Horizontal">
+            <Image
+                Width="30"
+                Height="30"
+                Source="../Resource/IMG/happyface.jpg" />
+            <Label VerticalContentAlignment="Center">A happy face</Label>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Image
+                Width="30"
+                Height="30"
+                Source="../Resource/IMG/redx.jpg" />
+            <Label VerticalContentAlignment="Center">A warning sign</Label>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Image
+                Width="30"
+                Height="30"
+                Source="../Resource/IMG/happyface.jpg" />
+            <Label VerticalContentAlignment="Center">A happy face</Label>
+        </StackPanel>
+    </ListBox>
+</Window>
