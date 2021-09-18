@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SingleInstanceApplication.Utils;
 
 namespace SingleInstanceApplication
 {
@@ -22,6 +23,13 @@ namespace SingleInstanceApplication
         private WpfApp app;
         protected override bool OnStartup(StartupEventArgs eventArgs)
         {
+            //写入注册表
+            string extension = ".testDoc";
+            string title = "SingleInstanceApplication";
+            string extensionDescription = "A Test Document";
+            //管理员权限执行
+            FileRegistrationHelper.SetFileAssociation(extension, title + '.' + extensionDescription);
+
             //重写OnStartup 并创建WPF应用
             app = new WpfApp();
             app.Run();
