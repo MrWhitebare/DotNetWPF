@@ -38,7 +38,7 @@ namespace SingleInstanceApplication.Forms
         {
             base.OnClosed(e);
 
-            //((WpfApp)Application.Current)
+            ((WpfApp)Application.Current).Documents.Remove(this.docRef);
         }
     }
 }
