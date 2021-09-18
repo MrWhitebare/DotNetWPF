@@ -266,6 +266,7 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="Resource\component\CustomWords.lex" />
     <Resource Include="Resource\font\bayern.ttf" />
   </ItemGroup>
   <ItemGroup>
@@ -287,8 +288,6 @@
     <Resource Include="Resource\IMG\happyface.jpg" />
     <Resource Include="Resource\IMG\redx.jpg" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resource\component\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -5,6 +5,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="clr-namespace:Controls.Forms"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:sys="clr-namespace:System;assembly=System"
     Title="CustomSpellChecker"
     Width="300"
     Height="300"
@@ -14,7 +15,9 @@
             SpellCheck.IsEnabled="True"
             Text="Now the spell checker recognizes acantholysis and offers the right correction for acantholysi"
             TextWrapping="Wrap">
-            <SpellCheck.CustomDictionaries />
+            <SpellCheck.CustomDictionaries>
+                <sys:Uri>pack://application:,,,/Resource/component/CustomWords.lex</sys:Uri>
+            </SpellCheck.CustomDictionaries>
         </TextBox>
     </Grid>
 </Window>
