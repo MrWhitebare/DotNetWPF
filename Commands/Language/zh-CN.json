@@ -1,0 +1,32 @@
+{
+    "Menu":{
+      "File": {
+        "Title": "文件",
+        "New": "新建",
+        "Open": "打开",
+        "Save": "存储",
+        "SaveAs": "另存为",
+        "Close": "关闭"
+      },
+      "Options": {
+        "Title": "选项",
+        "Setting": {
+          "Title": "设置",
+          "zhCh": "简体中文",
+          "English": "English"
+        }
+      }
+    },
+    "ToolBar":{
+        "toolBarFile":{
+            "New":"新建",
+            "Open":"打开",
+            "Save":"存储"
+        },
+        "toolBarSelf":{
+            "Cut":"剪切",
+            "Copy":"复制",
+            "Paste":"粘贴"
+        }
+    }
+}

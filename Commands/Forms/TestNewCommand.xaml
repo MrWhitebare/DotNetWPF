@@ -1,0 +1,57 @@
+﻿<Window
+    x:Class="Commands.Forms.TestNewCommand"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Commands.Forms"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="TestNewCommand"
+    Width="281"
+    Height="134"
+    mc:Ignorable="d">
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.New" Executed="NewCommand" />
+        <CommandBinding Command="ApplicationCommands.Open" Executed="OepnCommand" />
+    </Window.CommandBindings>
+
+    <StackPanel>
+        <Menu>
+            <MenuItem Header="File">
+                <MenuItem Command="New" />
+                <MenuItem Command="Open" />
+            </MenuItem>
+        </Menu>
+        <ScrollViewer Height="80">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Button
+                    Grid.Row="0"
+                    Margin="5"
+                    Padding="5"
+                    Command="ApplicationCommands.New"
+                    Content="New"
+                    ToolTip="{x:Static ApplicationCommands.New}" />
+                <Button
+                    Grid.Row="1"
+                    Margin="5"
+                    Padding="5"
+                    Command="ApplicationCommands.Open"
+                    Content="Open(unwired)"
+                    ToolTip="{x:Static ApplicationCommands.Open}"
+                    Visibility="Visible" />
+                <Button
+                    x:Name="btnDoCommand"
+                    Grid.Row="2"
+                    Margin="5"
+                    Padding="5"
+                    Click="btnDoCommand_Click"
+                    Content="DoCommand"
+                    Visibility="Visible" />
+            </Grid>
+        </ScrollViewer>
+    </StackPanel>
+</Window>

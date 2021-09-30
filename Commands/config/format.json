@@ -1,0 +1,369 @@
+{
+    "ProjectDic": {
+      "IsChecked": false,
+      "Title":"项目字典",
+        "Childrens": [
+            {
+                "Key": "btnProject",
+                "Title": "项目概况",
+                "Form": "FrmProjectDictionary"
+            },
+            {
+                "Key": "btnMain",
+                "Title": "主体工程",
+                "Form": "FrmProjectDictionary"
+            },
+            {
+                "Key": "btnRelevant",
+                "Title": "相关工程",
+                "Form": "FrmProjectDictionary"
+            },
+            {
+                "Key": "btnProgramme",
+                "Title": "监测方案",
+                "Form": "FrmProjectDictionary"
+            },
+            {
+                "Key": "btnObject",
+                "Title": "监测对象",
+                "Form": "FrmProjectDictionary"
+            }
+        ]
+    },
+  "Section": {
+    "IsChecked": false,
+    "Title": "范围校验",
+    "Childrens": [
+      {
+        "Key": "btnSpacial",
+        "Title": "空间调查",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnScope",
+        "Title": "范围校验",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnSchedule",
+        "Title": "进度校验",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnMain",
+        "Title": "主体进度",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnProgramme",
+        "Title": "监测方案",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnObject",
+        "Title": "监测对象",
+        "Form": "FrmProjectDictionary"
+      }
+    ]
+  },
+  "Measure": {
+    "IsChecked": false,
+    "Title": "进度校验",
+    "Childrens": [
+      {
+        "Key": "btnSpacial",
+        "Title": "空间调查",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnScope",
+        "Title": "范围校验",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnSchedule",
+        "Title": "进度校验",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnMain",
+        "Title": "主体进度",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnProgramme",
+        "Title": "监测方案",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnObject",
+        "Title": "监测对象",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnProgramme",
+        "Title": "监测方案",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnObject",
+        "Title": "监测对象",
+        "Form": "FrmProjectDictionary"
+      }
+
+    ]
+  },
+  "Range": {
+    "IsChecked": false,
+    "Title": "空间调查",
+    "Childrens": [
+      {
+        "Key": "btnSpacial",
+        "Title": "空间调查",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnScope",
+        "Title": "范围校验",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnSchedule",
+        "Title": "进度校验",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnMain",
+        "Title": "主体进度",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnProgramme",
+        "Title": "监测方案",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnObject",
+        "Title": "监测对象",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnProgramme",
+        "Title": "监测方案",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnObject",
+        "Title": "监测对象",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnProgramme",
+        "Title": "监测方案",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnObject",
+        "Title": "监测对象",
+        "Form": "FrmProjectDictionary"
+      }
+
+    ]
+  },
+    "Equiptment": {
+      "IsChecked": false,
+      "Title": "主体进度",
+      "Childrens": [
+        {
+          "Key": "btnSpacial",
+          "Title": "空间调查",
+          "Form": "FrmProjectDictionary"
+        },
+        {
+          "Key": "btnScope",
+          "Title": "范围校验",
+          "Form": "FrmProjectDictionary"
+        },
+        {
+          "Key": "btnSchedule",
+          "Title": "进度校验",
+          "Form": "FrmProjectDictionary"
+        },
+        {
+          "Key": "btnMain",
+          "Title": "主体进度",
+          "Form": "FrmProjectDictionary"
+        },
+        {
+          "Key": "btnProgramme",
+          "Title": "监测方案",
+          "Form": "FrmProjectDictionary"
+        },
+        {
+          "Key": "btnObject",
+          "Title": "监测对象",
+          "Form": "FrmProjectDictionary"
+        },
+        {
+          "Key": "btnProgramme",
+          "Title": "监测方案",
+          "Form": "FrmProjectDictionary"
+        },
+        {
+          "Key": "btnObject",
+          "Title": "监测对象",
+          "Form": "FrmProjectDictionary"
+        }
+      ]
+    },
+    "Monitor": {
+      "IsChecked": false,
+      "Title":"项目检测",
+      "Childrens": [
+        {
+          "Key": "btnSpacial",
+          "Title": "空间调查",
+          "Form": "FrmProjectDictionary"
+        },
+        {
+          "Key": "btnScope",
+          "Title": "范围校验",
+          "Form": "FrmProjectDictionary"
+        },
+        {
+          "Key": "btnSchedule",
+          "Title": "进度校验",
+          "Form": "FrmProjectDictionary"
+        },
+        {
+          "Key": "btnMain",
+          "Title": "主体进度",
+          "Form": "FrmProjectDictionary"
+        },
+        {
+          "Key": "btnProgramme",
+          "Title": "监测方案",
+          "Form": "FrmProjectDictionary"
+        },
+        {
+          "Key": "btnObject",
+          "Title": "监测对象",
+          "Form": "FrmProjectDictionary"
+        },
+        {
+          "Key": "btnProgramme",
+          "Title": "监测方案",
+          "Form": "FrmProjectDictionary"
+        },
+        {
+          "Key": "btnObject",
+          "Title": "监测对象",
+          "Form": "FrmProjectDictionary"
+        }
+      ]
+    },
+  "Video": {
+    "IsChecked": false,
+    "Title": "视频集控",
+    "Childrens": [
+      {
+        "Key": "btnSpacial",
+        "Title": "空间调查",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnScope",
+        "Title": "范围校验",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnSchedule",
+        "Title": "进度校验",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnMain",
+        "Title": "主体进度",
+        "Form": "FrmProjectDictionary"
+      }
+    ]
+  },
+  "Space": {
+    "IsChecked": false,
+    "Title": "空间调查",
+    "Childrens": [
+      {
+        "Key": "btnSpacial",
+        "Title": "空间调查",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnScope",
+        "Title": "范围校验",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnSchedule",
+        "Title": "进度校验",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnMain",
+        "Title": "主体进度",
+        "Form": "FrmProjectDictionary"
+      }
+    ]
+  },
+  "Schedule": {
+    "IsChecked": false,
+    "Title": "范围校验",
+    "Childrens": [
+      {
+        "Key": "btnSpacial",
+        "Title": "空间调查",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnScope",
+        "Title": "范围校验",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnSchedule",
+        "Title": "进度校验",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnMain",
+        "Title": "主体进度",
+        "Form": "FrmProjectDictionary"
+      }
+    ]
+  },
+  "MainSpeed": {
+    "IsChecked": false,
+    "Title": "进度校验",
+    "Childrens": [
+      {
+        "Key": "btnSpacial",
+        "Title": "空间调查",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnScope",
+        "Title": "范围校验",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnSchedule",
+        "Title": "进度校验",
+        "Form": "FrmProjectDictionary"
+      },
+      {
+        "Key": "btnMain",
+        "Title": "主体进度",
+        "Form": "FrmProjectDictionary"
+      }
+    ]
+  }
+}

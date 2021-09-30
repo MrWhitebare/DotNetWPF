@@ -1,0 +1,80 @@
+{
+  "Emergency": [
+    {
+      "key": "btnSpacial",
+      "Title": "空间调查"
+    },
+    {
+      "key": "btnScope",
+      "Title": "范围校验"
+    },
+    {
+      "key": "btnSchedule",
+      "Title": "进度校验"
+    },
+    {
+      "key": "btnMain",
+      "Title": "主体进度"
+    },
+    {
+      "key": "btnSetting",
+      "Title": "设置"
+    }
+  ],
+  "Scene": [
+    {
+      "key": "btnDictionary",
+      "Title": "项目字典"
+    },
+    {
+      "key": "btnDivide",
+      "Title": "标段划分"
+    },
+    {
+      "key": "btnTest",
+      "Title": "测试设置"
+    }
+  ],
+  "Manager": [
+    {
+      "key": "btnDictionary",
+      "Title": "项目字典"
+    },
+    {
+      "key": "btnDivide",
+      "Title": "标段划分"
+    },
+    {
+      "key": "btnTest",
+      "Title": "测试设置"
+    },
+    {
+      "key": "btnDevice",
+      "Title": "设备管理"
+    },
+    {
+      "key": "btnDetect",
+      "Title": "监测管理"
+    },
+    {
+      "key": "btnVideo",
+      "Title": "视频集控"
+    },
+    {
+      "key": "btnSpacial",
+      "Title": "空间调查"
+    },
+    {
+      "key": "btnScope",
+      "Title": "范围校验"
+    },
+    {
+      "key": "btnSchedule",
+      "Title": "进度校验"
+    },
+    {
+      "key": "btnMain",
+      "Title": "主体进度"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+    "Menu":{
+      "File": {
+        "Title": "File",
+        "New": "New",
+        "Open": "Open",
+        "Save": "Save",
+        "SaveAs": "SaveAs",
+        "Close": "Close"
+      },
+      "Options": {
+        "Title": "Options",
+        "Setting": {
+          "Title": "Setting",
+          "zhCh": "简体中文",
+          "English": "English"
+        }
+      }
+    },
+    "ToolBar":{
+        "toolBarFile":{
+            "New":"New",
+            "Open":"Open",
+            "Save":"Save"
+        },
+        "toolBarSelf":{
+            "Cut":"Cut",
+            "Copy":"Copy",
+            "Paste":"Paste"
+        }
+    }
+}

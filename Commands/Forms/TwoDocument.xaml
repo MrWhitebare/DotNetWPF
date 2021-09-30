@@ -1,0 +1,99 @@
+﻿<Window
+    x:Class="Commands.Forms.TwoDocument"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Commands.Forms"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="TwoDocument"
+    Width="300"
+    Height="300"
+    Loaded="Window_Loaded"
+    mc:Ignorable="d">
+
+    <!--<Window.Resources>
+        <CommandBinding
+            x:Key="binding"
+            CanExecute="SaveCommand_CanExecute"
+            Command="ApplicationCommands.Save"
+            Executed="SaveCommand" />
+    </Window.Resources>-->
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Menu Grid.Row="0">
+            <MenuItem Name="MenuFile" Header="文件">
+                <MenuItem
+                    Name="MenuNew"
+                    Command="New"
+                    Header="新建" />
+                <MenuItem
+                    Name="MenuOpen"
+                    Command="Open"
+                    Header="打开" />
+                <MenuItem
+                    Name="MenuSave"
+                    Command="Save"
+                    Header="保存" />
+                <MenuItem
+                    Name="MenuSaveAs"
+                    Command="SaveAs"
+                    Header="另存为" />
+                <Separator />
+                <MenuItem
+                    Name="MenuClose"
+                    Command="Close"
+                    Header="关闭" />
+            </MenuItem>
+            <MenuItem Name="MenuOption" Header="选项">
+                <MenuItem Name="MenuSetting" Header="设置">
+                    <MenuItem
+                        Name="mItChina"
+                        Click="mItChina_Click"
+                        Header="简体中文" />
+                    <MenuItem
+                        Name="mItEnglish"
+                        Click="mItEnglish_Click"
+                        Header="English" />
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+
+        <ToolBarTray Grid.Row="1">
+            <ToolBar Name="toolBarFile">
+                <Button
+                    Name="btnNew"
+                    Command="New"
+                    Content="新建" />
+                <Button
+                    Name="btnOpen"
+                    Command="Open"
+                    Content="打开" />
+                <Button
+                    Name="btnSave"
+                    Command="Save"
+                    Content="保存" />
+            </ToolBar>
+            <ToolBar Name="toolBarSelf">
+                <Button
+                    Name="btnCut"
+                    Command="Cut"
+                    Content="剪切" />
+                <Button
+                    Name="btnCopy"
+                    Command="Copy"
+                    Content="复制" />
+                <Button
+                    Name="btnPaste"
+                    Command="Paste"
+                    Content="粘贴" />
+            </ToolBar>
+        </ToolBarTray>
+    </Grid>
+</Window>
