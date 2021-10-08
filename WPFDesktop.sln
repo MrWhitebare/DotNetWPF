@@ -174,6 +174,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBindings", "DataBinding
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commands", "Commands\Commands.csproj", "{4874BDED-19D5-42CD-B5B0-97E03EA31C72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resources", "Resources\Resources.csproj", "{6F6C0B3B-DC51-4FFA-9811-D0E590111785}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -240,6 +242,10 @@ Global
 		{4874BDED-19D5-42CD-B5B0-97E03EA31C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4874BDED-19D5-42CD-B5B0-97E03EA31C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4874BDED-19D5-42CD-B5B0-97E03EA31C72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F6C0B3B-DC51-4FFA-9811-D0E590111785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F6C0B3B-DC51-4FFA-9811-D0E590111785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F6C0B3B-DC51-4FFA-9811-D0E590111785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F6C0B3B-DC51-4FFA-9811-D0E590111785}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -264,6 +270,7 @@ Global
 		{7C262549-71A1-41DC-9C25-FC7FFB3BE504} = {99B00B01-1E68-4BE0-A14D-7F7989BFD63B}
 		{B13B32E8-0DC2-4087-B5C2-5276E1D42E8D} = {3DC143BC-8766-4915-B3BB-7B43625917AA}
 		{4874BDED-19D5-42CD-B5B0-97E03EA31C72} = {CF77CD87-8E75-4F76-B379-0AE827668C95}
+		{6F6C0B3B-DC51-4FFA-9811-D0E590111785} = {3D7631C8-2A55-42C6-89AE-70A6F9F62A73}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {597EBEE1-7D9D-41D1-B8E9-7AA4E67F6412}
