@@ -130,5 +130,30 @@ namespace Commands.Forms
                 ChangeLanguage(language);
             }
         }
+
+        private void SaveCommand(object sender, ExecutedRoutedEventArgs e)
+        {
+            string text = ((TextBox)sender).Text;
+            MessageBox.Show("About to save: " + text);
+            isDirty[sender] = false;
+        }
+
+        private Dictionary<Object, bool> isDirty = new Dictionary<Object, bool>();
+        private void txt_TextChanged(object sender, RoutedEventArgs e)
+        {
+            isDirty[sender] = true;
+        }
+
+        private void SaveCommand_CanExecute(object sender, CanExecuteRoutedEventArgs e)
+        {
+            if (isDirty.ContainsKey(sender) && isDirty[sender] == true)
+            {
+                e.CanExecute = true;
+            }
+            else
+            {
+                e.CanExecute = false;
+            }
+        }
     }
 }

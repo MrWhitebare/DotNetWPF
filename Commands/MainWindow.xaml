@@ -20,7 +20,6 @@
             <Button>CustomControlWithCommand</Button>
             <Button>TwoDocument</Button>
             <Button>MonitorCommands</Button>
-            <Button>Cascader</Button>
         </StackPanel>
     </Grid>
 </Window>

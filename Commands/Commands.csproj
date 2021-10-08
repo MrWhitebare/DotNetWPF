@@ -61,14 +61,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Forms\Cascader.xaml.cs">
-      <DependentUpon>Cascader.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Forms\CustomCommand.xaml.cs">
       <DependentUpon>CustomCommand.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Forms\CustomControlWithCommand.xaml.cs">
+      <DependentUpon>CustomControlWithCommand.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Forms\JsonRenderPlus.xaml.cs">
       <DependentUpon>JsonRenderPlus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MonitorCommands.xaml.cs">
+      <DependentUpon>MonitorCommands.xaml</DependentUpon>
     </Compile>
     <Compile Include="Forms\NoCommandTextBox.xaml.cs">
       <DependentUpon>NoCommandTextBox.xaml</DependentUpon>
@@ -79,15 +82,16 @@
     <Compile Include="Forms\TwoDocument.xaml.cs">
       <DependentUpon>TwoDocument.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Utils\CommandSlider.cs" />
     <Compile Include="Utils\Language.cs" />
     <Compile Include="Utils\OperateAppConfig.cs" />
     <Compile Include="Utils\ToolProperty.cs" />
     <Compile Include="Utils\ToolsProperty.cs" />
-    <Page Include="Forms\Cascader.xaml">
+    <Page Include="Forms\CustomCommand.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Forms\CustomCommand.xaml">
+    <Page Include="Forms\CustomControlWithCommand.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -96,6 +100,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Forms\JsonRenderPlus.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\MonitorCommands.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

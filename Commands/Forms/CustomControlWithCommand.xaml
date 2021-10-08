@@ -1,0 +1,108 @@
+﻿<Window
+    x:Class="Commands.Forms.CustomControlWithCommand"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Commands.Forms"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:utils="clr-namespace:Commands.Utils"
+    Title="CustomControlWithCommand"
+    Width="400"
+    Height="500"
+    mc:Ignorable="d">
+
+    <Window.Resources>
+        <local:FontStringValueConverter x:Key="StringConverterResource" />
+        <local:FontDoubleValueConverter x:Key="DoubleConverterResource" />
+    </Window.Resources>
+
+    <StackPanel>
+        <Border
+            Width="400"
+            Height="400"
+            Margin="10"
+            BorderBrush="Black"
+            BorderThickness="2">
+            <StackPanel>
+                <StackPanel Margin="10">
+                    <Label HorizontalAlignment="Center" Content="Custom Slider that Invokes a Command" />
+                    <Border Width="350" Background="LightBlue">
+                        <utils:CommandSlider
+                            x:Name="FontSlider"
+                            Width="275"
+                            Height="50"
+                            AutoToolTipPlacement="BottomRight"
+                            AutoToolTipPrecision="0"
+                            Background="AliceBlue"
+                            Command="{x:Static local:CustomControlWithCommand.FontUpdateCommand}"
+                            CommandParameter="{Binding ElementName=FontSlider, Path=Value, Converter={StaticResource DoubleConverterResource}}"
+                            CommandTarget="{Binding ElementName=txtBoxTarget}"
+                            Focusable="False"
+                            LargeChange="5"
+                            Maximum="60"
+                            Minimum="0"
+                            SmallChange="5"
+                            TickFrequency="5"
+                            TickPlacement="BottomRight"
+                            Value="12" />
+                    </Border>
+                </StackPanel>
+                <Border
+                    Width="300"
+                    Height="150"
+                    Margin="15"
+                    BorderBrush="Black"
+                    BorderThickness="1">
+                    <StackPanel Margin="5">
+                        <CheckBox
+                            Name="OnReadOnly"
+                            Margin="5"
+                            Checked="OnReadOnly_Checked"
+                            Content="Read Only"
+                            FontSize="12"
+                            IsChecked="False"
+                            Unchecked="OnReadOnly_Unchecked" />
+                        <TextBox
+                            Name="tbxTarget"
+                            Width="275"
+                            Height="100"
+                            Margin="3">
+                            <TextBox.CommandBindings>
+                                <CommandBinding
+                                    CanExecute="SliderUpdateCanExecute"
+                                    Command="{x:Static local:CustomControlWithCommand.FontUpdateCommand}"
+                                    Executed="SliderUpdateExecuted" />
+                            </TextBox.CommandBindings>
+                            Hello
+                        </TextBox>
+                    </StackPanel>
+                </Border>
+                <StackPanel>
+                    <Label HorizontalAlignment="Center">
+                        More Command Sources for the Font Update Command
+                    </Label>
+                    <StackPanel
+                        Margin="10"
+                        HorizontalAlignment="Left"
+                        Background="LightBlue">
+                        <Button
+                            Width="150"
+                            Height="50"
+                            Margin="1"
+                            Command="{x:Static local:CustomControlWithCommand.FontUpdateCommand}"
+                            CommandParameter="{Binding ElementName=tbxValue, Path=Text, Converter={StaticResource StringConverterResource}}"
+                            CommandTarget="{Binding ElementName=tbxTarget}"
+                            Content="Update Font Via Command" />
+                        <TextBox
+                            x:Name="tbxValue"
+                            Width="25"
+                            Margin="0,0,0,3"
+                            Background="AliceBlue"
+                            MaxLength="2"
+                            Text="5" />
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </StackPanel>
+</Window>

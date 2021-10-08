@@ -11,13 +11,13 @@
     Loaded="Window_Loaded"
     mc:Ignorable="d">
 
-    <!--<Window.Resources>
+    <Window.Resources>
         <CommandBinding
             x:Key="binding"
             CanExecute="SaveCommand_CanExecute"
             Command="ApplicationCommands.Save"
             Executed="SaveCommand" />
-    </Window.Resources>-->
+    </Window.Resources>
 
     <Grid>
         <Grid.RowDefinitions>
@@ -95,5 +95,30 @@
                     Content="粘贴" />
             </ToolBar>
         </ToolBarTray>
+
+        <TextBox
+            Grid.Row="2"
+            Margin="5"
+            AcceptsReturn="True"
+            TextChanged="txt_TextChanged"
+            TextWrapping="Wrap">
+
+            <TextBox.CommandBindings>
+                <StaticResource ResourceKey="binding" />
+            </TextBox.CommandBindings>
+
+        </TextBox>
+        <TextBox
+            Grid.Row="3"
+            Margin="5"
+            AcceptsReturn="True"
+            TextChanged="txt_TextChanged"
+            TextWrapping="Wrap">
+
+            <TextBox.CommandBindings>
+                <StaticResource ResourceKey="binding" />
+            </TextBox.CommandBindings>
+
+        </TextBox>
     </Grid>
 </Window>
