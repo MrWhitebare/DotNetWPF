@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -23,6 +24,17 @@ namespace Resources
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void StackPanel_Click(object sender, RoutedEventArgs e)
+        {
+            Button button = e.OriginalSource as Button;
+            Type type = this.GetType();
+            Assembly assembly = type.Assembly;
+
+            Window window = (Window)assembly.CreateInstance(String.Format("{0}.Forms.{1}", type.Namespace, button.Content));
+
+            window.ShowDialog();
         }
     }
 }

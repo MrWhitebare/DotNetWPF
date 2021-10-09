@@ -9,5 +9,12 @@
     Width="244"
     Height="321"
     mc:Ignorable="d">
-    <Grid />
+    <Grid>
+        <StackPanel Margin="5" ButtonBase.Click="StackPanel_Click">
+            <Button Content="WindowResource" />
+            <Button Content="DynamicResource" />
+            <Button Content="TwoResources" />
+            <Button Content="ResourceFromLibrary" />
+        </StackPanel>
+    </Grid>
 </Window>
