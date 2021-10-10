@@ -13,8 +13,7 @@ namespace ResourceLibrary
         {
             get
             {
-                return new ComponentResourceKey(
-                    typeof(CustomResources), "SadTileBrush");
+                return new ComponentResourceKey(typeof(CustomResources), "SadTileBrush");
             }
         }
     }

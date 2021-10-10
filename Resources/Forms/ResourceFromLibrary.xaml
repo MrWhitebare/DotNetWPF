@@ -27,5 +27,22 @@
             Content="A Resource From ResourceLibrary"
             FontSize="14"
             FontWeight="Bold" />
+
+        <Button
+            Margin="5"
+            Padding="5"
+            Background="{DynamicResource {ComponentResourceKey TypeInTargetAssembly={x:Type resLib:CustomResources},
+                                                               ResourceId=SadTileBrush}}"
+            Content="A Resource From ResourceLibrary"
+            FontSize="14"
+            FontWeight="Bold" />
+
+        <Button
+            Margin="5"
+            Padding="5"
+            Background="{DynamicResource {x:Static resLib:CustomResources.SadTileBrush}}"
+            Content="A Resource From ResourceLibrary"
+            FontSize="14"
+            FontWeight="Bold" />
     </StackPanel>
 </Window>
