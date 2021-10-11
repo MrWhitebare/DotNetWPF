@@ -1,0 +1,42 @@
+﻿<Window
+    x:Class="Styles.Forms.ReuseFontWithResources"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Styles.Forms"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:mscorlib="clr-namespace:System;assembly=mscorlib"
+    Title="ReuseFontWithResources"
+    Width="378"
+    Height="368"
+    mc:Ignorable="d">
+
+    <Window.Resources>
+        <FontFamily x:Key="ButtonFontFamily">Times New Roman</FontFamily>
+        <mscorlib:Double x:Key="ButtonFontSize">18</mscorlib:Double>
+        <FontWeight x:Key="ButtonFontWeight">Bold</FontWeight>
+    </Window.Resources>
+
+    <StackPanel Margin="5">
+        <Button
+            Margin="5"
+            Padding="5"
+            Content="A Customized Button"
+            FontFamily="{StaticResource ButtonFontFamily}"
+            FontSize="{StaticResource ButtonFontSize}"
+            FontWeight="{StaticResource ButtonFontWeight}" />
+        <TextBlock Margin="5" Text="Normal Content" />
+        <Button
+            Margin="5"
+            Padding="5"
+            Content="A Normal Button" />
+        <TextBlock Margin="5" Text="More normal Content" />
+        <Button
+            Margin="5"
+            Padding="5"
+            Content="Another Customized Button"
+            FontFamily="{StaticResource ButtonFontFamily}"
+            FontSize="{StaticResource ButtonFontSize}"
+            FontWeight="{StaticResource ButtonFontWeight}" />
+    </StackPanel>
+</Window>

@@ -1,0 +1,49 @@
+﻿<Window
+    x:Class="Behaviors.Forms.FadeInAndOutTest"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:customAction="clr-namespace:CustomBehaviorsLibrary;assembly=CustomBehaviorsLibrary"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+    xmlns:local="clr-namespace:Behaviors.Forms"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="FadeInAndOutTest"
+    Width="343"
+    Height="296"
+    mc:Ignorable="d">
+
+    <StackPanel x:Name="LayoutRoot" Margin="10">
+
+        <StackPanel Margin="3,15" Orientation="Horizontal">
+            <Button Padding="5" Content="Click to Fade the Label">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <customAction:FadeOutAction TargetName="border" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+
+            <Button Padding="5" Content="Click to Show the Label">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <customAction:FadeInAction TargetName="border" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+        </StackPanel>
+
+        <Border
+            x:Name="border"
+            Margin="3,0"
+            Background="Orange"
+            BorderBrush="Black"
+            BorderThickness="1"
+            CornerRadius="10">
+            <TextBlock
+                Margin="5"
+                FontSize="17"
+                Text="I'm the target of the FadeOutAction and FadeInAction."
+                TextWrapping="Wrap" />
+        </Border>
+    </StackPanel>
+</Window>
