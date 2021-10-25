@@ -10,14 +10,11 @@
     Height="300"
     mc:Ignorable="d">
     <Window.Resources>
-        <ImageBrush
-            x:Key="TileBrush"
-            x:Name="DynamicBrush"
-            ImageSource="../Resources/Images/happyface.jpg"
-            Opacity="0.3"
-            TileMode="Tile"
-            Viewport="0 0 32 32"
-            ViewportUnits="Absolute" />
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Resources/Style.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Window.Resources>
 
     <StackPanel Margin="5">
@@ -45,5 +42,7 @@
             Content="Uses a Static Resource"
             FontSize="14"
             FontWeight="Bold" />
+
+        <TextBlock Text="&#xe61e;的经" />
     </StackPanel>
 </Window>

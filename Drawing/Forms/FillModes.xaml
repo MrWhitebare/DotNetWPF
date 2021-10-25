@@ -1,0 +1,58 @@
+﻿<Window
+    x:Class="Drawing.Forms.FillModes"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Drawing.Forms"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="FillModes"
+    Width="477"
+    Height="270"
+    mc:Ignorable="d">
+    <Grid Margin="5" ShowGridLines="True">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Ellipse
+            Grid.Row="0"
+            Grid.Column="0"
+            Fill="Yellow"
+            Stretch="Fill"
+            Stroke="Blue" />
+        <TextBlock
+            Grid.Row="1"
+            Grid.Column="0"
+            Text="Fill"
+            TextAlignment="Center" />
+
+        <Ellipse
+            Grid.Row="0"
+            Grid.Column="1"
+            Fill="Yellow"
+            Stretch="Uniform"
+            Stroke="Blue" />
+        <TextBlock
+            Grid.Row="1"
+            Grid.Column="1"
+            Text="Uniform"
+            TextAlignment="Center" />
+
+        <Ellipse
+            Grid.Row="0"
+            Grid.Column="2"
+            Fill="Yellow"
+            Stretch="UniformToFill"
+            Stroke="Blue" />
+        <TextBlock
+            Grid.Row="1"
+            Grid.Column="2"
+            Text="UniformToFill"
+            TextAlignment="Center" />
+    </Grid>
+</Window>

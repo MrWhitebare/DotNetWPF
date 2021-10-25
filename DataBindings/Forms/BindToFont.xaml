@@ -22,4 +22,5 @@
 
         <TextBlock Margin="5" Text="{Binding Source={StaticResource CustomFont}, Path=Source}" />
     </StackPanel>
+
 </Window>

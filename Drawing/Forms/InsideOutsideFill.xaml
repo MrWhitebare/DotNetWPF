@@ -1,0 +1,31 @@
+﻿<Window
+    x:Class="Drawing.Forms.InsideOutsideFill"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Drawing.Forms"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="InsideOutsideFill"
+    Width="462"
+    Height="479"
+    mc:Ignorable="d">
+    <Viewbox HorizontalAlignment="Left">
+        <Canvas Width="200" Height="400">
+            <Polygon
+                Canvas.Left="10"
+                Fill="Yellow"
+                FillRule="EvenOdd"
+                Points="15,200 68,70 110,200 0,125 135,125"
+                Stroke="Blue"
+                StrokeThickness="1" />
+            <Polygon
+                Canvas.Left="10"
+                Canvas.Top="175"
+                Fill="Yellow"
+                FillRule="Nonzero"
+                Points="15,200 68,70 110,200 0,125 135,125"
+                Stroke="Blue"
+                StrokeThickness="1" />
+        </Canvas>
+    </Viewbox>
+</Window>

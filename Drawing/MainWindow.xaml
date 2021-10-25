@@ -1,0 +1,38 @@
+﻿<Window
+    x:Class="Drawing.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Drawing"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Menu"
+    Width="282"
+    Height="538"
+    mc:Ignorable="d">
+    <StackPanel Margin="5" Button.Click="ButtonClick">
+        <Button Content="Shapes" />
+        <Button Content="RoundedRectangles" />
+        <Button Content="FillModes" />
+        <Button Content="ViewboxResize" />
+        <Button Content="PolylinesAndPolygons" />
+        <Button Content="InsideOutsideFill" />
+        <Button Content="PixelSnapping" />
+        <Button Content="LineCaps" />
+        <Button Content="LineJoins" />
+        <Button Content="DashedLines" />
+        <Button Content="Gradients" />
+        <Button Content="GradientText" />
+        <Button Content="RadialGradient" />
+        <Button Content="ImageBrushes" />
+        <Button Content="TileTypes" />
+        <Button Content="TileFlip" />
+        <Button Content="VisualBrush" />
+        <Button Content="RotateShape" />
+        <Button Content="RotateElement" />
+        <Button Content="Transparency" />
+        <Button Content="OpacityMask" />
+        <Button Content="Reflection" />
+        <Button Content="TextBoxWithEllipsis" />
+        <Button Content="CefWPFChrome" />
+    </StackPanel>
+</Window>
