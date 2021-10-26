@@ -1,0 +1,57 @@
+﻿<Window
+    x:Class="Drawing.Forms.Transparency"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Drawing.Forms"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Transparency"
+    Width="450"
+    Height="385"
+    Background="#fff"
+    mc:Ignorable="d">
+    <StackPanel Margin="5">
+        <StackPanel.Background>
+            <ImageBrush ImageSource="../Resources/Images/celestial.jpg" Opacity="0.7" />
+        </StackPanel.Background>
+        <Button
+            Margin="10"
+            Padding="20"
+            Background="#60AA4030"
+            BorderBrush="White"
+            Content="A Semi-Transparent Button"
+            FontSize="16"
+            Foreground="White" />
+        <Label
+            Margin="10"
+            Content="Some Label Text"
+            FontSize="18"
+            FontWeight="Bold"
+            Foreground="#fff" />
+        <TextBox
+            Margin="10"
+            Background="#AAAAAAAA"
+            BorderBrush="#fff"
+            Foreground="#fff"
+            Text="A semi-transparent text box" />
+        <Button
+            Margin="10"
+            Padding="25"
+            BorderBrush="#fff">
+            <Button.Background>
+                <ImageBrush
+                    ImageSource="../Resources/Images/happyface.jpg"
+                    Opacity="0.8"
+                    TileMode="Tile"
+                    Viewport="0,0,0.1,0.4" />
+            </Button.Background>
+            <TextBlock
+                FontSize="30"
+                FontWeight="Bold"
+                Foreground="#75FFFFFF"
+                Text="Semi-Transparent Layers"
+                TextAlignment="Center"
+                TextWrapping="Wrap" />
+        </Button>
+    </StackPanel>
+</Window>

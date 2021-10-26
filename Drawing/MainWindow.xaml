@@ -34,5 +34,6 @@
         <Button Content="Reflection" />
         <Button Content="TextBoxWithEllipsis" />
         <Button Content="CefWPFChrome" />
+        <Button Content="StartChromium" />
     </StackPanel>
 </Window>

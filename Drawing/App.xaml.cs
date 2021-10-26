@@ -25,7 +25,7 @@ namespace Drawing
             Cef.Initialize(settings, performDependencyCheck: false, browserProcessHandler: null);
         }
 
-        private static Assembly Resolver(object sender,ResolveEventArgs args)
+        private static Assembly Resolver(object sender, ResolveEventArgs args)
         {
             if (args.Name.StartsWith("CefSharp"))
             {

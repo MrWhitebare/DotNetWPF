@@ -33,7 +33,8 @@ namespace Drawing.Forms
             if (e.Key == Key.Enter)
             {
                 if (String.IsNullOrEmpty(this.tbxAddress.Text)) return;
-                this.Browser.Address = PublicPath+this.tbxAddress.Text;
+                //this.Browser.Address = PublicPath+this.tbxAddress.Text;
+                this.Browser.Address = tbxAddress.Text;
                 this.Browser.LifeSpanHandler = new OpenPageSelf();
                 InitData(20);
             }          

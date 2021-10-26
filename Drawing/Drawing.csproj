@@ -97,6 +97,22 @@
     <Compile Include="Forms\CefWPFChrome.xaml.cs">
       <DependentUpon>CefWPFChrome.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Forms\OpacityMask.xaml.cs">
+      <DependentUpon>OpacityMask.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Reflection.xaml.cs">
+      <DependentUpon>Reflection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RotateElement.xaml.cs">
+      <DependentUpon>RotateElement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StartChromium.xaml.cs">
+      <DependentUpon>StartChromium.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Transparency.xaml.cs">
+      <DependentUpon>Transparency.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\JavascriptCallCSharp.cs" />
     <Compile Include="Utils\ScriptCallbackManager.cs" />
     <Compile Include="Utils\OpenPageSelf.cs" />
     <Compile Include="Utils\tbxWithEllipsisUtils.cs" />
@@ -136,6 +152,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Forms\OpacityMask.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Forms\PixelSnapping.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -145,6 +165,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Forms\RadialGradient.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\Reflection.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\RotateElement.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -160,6 +188,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Forms\StartChromium.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Forms\TextBoxWithEllipsis.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -169,6 +201,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Forms\TileTypes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\Transparency.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

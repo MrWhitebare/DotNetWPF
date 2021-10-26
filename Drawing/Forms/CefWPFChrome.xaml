@@ -36,7 +36,7 @@
             Margin="5"
             HorizontalContentAlignment="Center"
             KeyDown="tbxAddress_KeyDown"
-            Text="index.html" />
+            Text="http://125.75.0.189:7089/DianZhongStatic/%E6%A0%87%E6%AE%B5%E7%AE%A1%E7%90%86/1%E6%A0%87%E6%AE%B5/1%E6%A0%87%E6%AE%B5.html" />
         <wpf:ChromiumWebBrowser
             x:Name="Browser"
             Grid.Row="1"

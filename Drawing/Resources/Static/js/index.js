@@ -52,3 +52,14 @@ function InitCodeData(listdata) {
     };
     myChart.setOption(option);
 }
+
+
+(async ()=>{
+    await CefSharp.BindObjectAsync("dotNetMessage");
+})();
+
+const ShowDotNetMessage=()=>{
+    let message = document.getElementById('textbox').value;
+    // alert(message);
+    dotNetMessage.show(message);
+}
