@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31624.102
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFDesktop", "WPFDesktop\WPFDesktop.csproj", "{0A2EBF32-A652-4ABE-ABC2-84A36BE7036A}"
 EndProject
@@ -204,6 +204,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomBehaviorsLibrary", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drawing", "Drawing\Drawing.csproj", "{098C8A54-D9FF-4456-B5C3-69C95C7A1405}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfVideoApp", "WpfVideoApp\WpfVideoApp.csproj", "{531D0B52-247A-4982-ABEE-384448937424}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -380,6 +382,14 @@ Global
 		{098C8A54-D9FF-4456-B5C3-69C95C7A1405}.Release|Any CPU.Build.0 = Release|Any CPU
 		{098C8A54-D9FF-4456-B5C3-69C95C7A1405}.Release|x64.ActiveCfg = Release|x64
 		{098C8A54-D9FF-4456-B5C3-69C95C7A1405}.Release|x64.Build.0 = Release|x64
+		{531D0B52-247A-4982-ABEE-384448937424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531D0B52-247A-4982-ABEE-384448937424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531D0B52-247A-4982-ABEE-384448937424}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{531D0B52-247A-4982-ABEE-384448937424}.Debug|x64.Build.0 = Debug|Any CPU
+		{531D0B52-247A-4982-ABEE-384448937424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531D0B52-247A-4982-ABEE-384448937424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{531D0B52-247A-4982-ABEE-384448937424}.Release|x64.ActiveCfg = Release|Any CPU
+		{531D0B52-247A-4982-ABEE-384448937424}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -410,6 +420,7 @@ Global
 		{8EE7D638-E82E-4645-88CE-667BB2B6E497} = {20536842-A162-419F-9195-B9BA16FD4D90}
 		{D3D3FB73-17D2-442E-84BA-F901480EDA9A} = {20536842-A162-419F-9195-B9BA16FD4D90}
 		{098C8A54-D9FF-4456-B5C3-69C95C7A1405} = {16A9A9AB-CB56-405A-9BA8-96A3D90B39BD}
+		{531D0B52-247A-4982-ABEE-384448937424} = {C27715F0-4CAE-46E6-B3B9-500827E99E25}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {597EBEE1-7D9D-41D1-B8E9-7AA4E67F6412}

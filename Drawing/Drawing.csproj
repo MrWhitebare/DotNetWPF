@@ -94,6 +94,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Forms\BanRedirct.xaml.cs">
+      <DependentUpon>BanRedirct.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Forms\CefWPFChrome.xaml.cs">
       <DependentUpon>CefWPFChrome.xaml</DependentUpon>
     </Compile>
@@ -116,6 +119,10 @@
     <Compile Include="Utils\ScriptCallbackManager.cs" />
     <Compile Include="Utils\OpenPageSelf.cs" />
     <Compile Include="Utils\tbxWithEllipsisUtils.cs" />
+    <Page Include="Forms\BanRedirct.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Forms\CefWPFChrome.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

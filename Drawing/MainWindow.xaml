@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Title="Menu"
     Width="282"
-    Height="538"
+    Height="550"
     mc:Ignorable="d">
     <StackPanel Margin="5" Button.Click="ButtonClick">
         <Button Content="Shapes" />
@@ -35,5 +35,6 @@
         <Button Content="TextBoxWithEllipsis" />
         <Button Content="CefWPFChrome" />
         <Button Content="StartChromium" />
+        <Button Content="BanRedirct" />
     </StackPanel>
 </Window>

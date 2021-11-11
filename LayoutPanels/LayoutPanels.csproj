@@ -84,6 +84,9 @@
     <Compile Include="Forms\BasicDialogBox.xaml.cs">
       <DependentUpon>BasicDialogBox.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Forms\CustomGrid.xaml.cs">
+      <DependentUpon>CustomGrid.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Forms\DoubleSplitWindow.xaml.cs">
       <DependentUpon>DoubleSplitWindow.xaml</DependentUpon>
     </Compile>
@@ -159,6 +162,10 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="Forms\BasicDialogBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\CustomGrid.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
