@@ -47,23 +47,23 @@ namespace Drawing.Forms
                 {
                     await IsLoading(this.chromium);
                     const string script = @"
-                    function stop(event) {
-                        event = event || window.event;
-                        if (event.preventDefault) {
-                            event.preventDefault();
-                        } else {
-                            event.returnValue = false;
-                        }
-                    };
-                    let a = document.getElementsByTagName('a');
-                    for (var i = 0; i < a.length; i++)
-                    {
-                        a[i].onclick = function(e) 
+                        function stop(event) {
+                            event = event || window.event;
+                            if (event.preventDefault) {
+                                event.preventDefault();
+                            } else {
+                                event.returnValue = false;
+                            }
+                        };
+                        let a = document.getElementsByTagName('a');
+                        for (var i = 0; i < a.length; i++)
                         {
-                            stop(e);
-                            return false;
-                        }
-                    }";
+                            a[i].onclick = function(e) 
+                            {
+                                stop(e);
+                                return false;
+                            }
+                        }";
                     this.chromium.ExecuteScriptAsync(script);
                 });
             }

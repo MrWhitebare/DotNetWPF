@@ -41,12 +41,19 @@ namespace Drawing.Forms
             };
 
             chromiumWebBrowser.IsBrowserInitializedChanged += ChromiumWebBrowser_IsBrowserInitializedChanged;
+            chromiumWebBrowser.KeyDown += ChromiumWebBrowser_KeyDown;
+        }
+
+        private void ChromiumWebBrowser_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.F12)
+            {
+                this.chromiumWebBrowser.ShowDevTools();
+            }
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-           
-
             this.ChromeWrapper.Children.Add(chromiumWebBrowser);
         }
 
@@ -56,7 +63,7 @@ namespace Drawing.Forms
             {
                 if (!File.Exists(FilePath)) return;
                 //chromiumWebBrowser.LoadHtml(File.ReadAllText(FilePath));
-                chromiumWebBrowser.Address = @"http://127.0.0.1:5500/index.html";
+                chromiumWebBrowser.Address = @"https://www.baidu.com";
             }
         }
     }
